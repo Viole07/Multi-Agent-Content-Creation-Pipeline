@@ -1,0 +1,19 @@
+# --- Dependencies ---
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# --- Environment Variables & Secrets (CRITICAL) ---
+.env
+*.env
+.env.local
+
+# --- Build Outputs ---
+dist/
+build/
+.uv/
+
+# --- System & IDE Files ---
+.DS_Store
+.vscode/
